@@ -11,5 +11,5 @@ form.addEventListener('submit', e => {
 
 function myfunction() {
   alert("Submitted Successfully! Redirecting to homepage");
-  location.href="/index.html";
+  location.href="index.html";
 }
