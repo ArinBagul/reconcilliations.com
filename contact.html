@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/c3f625be66.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="home-btn">
+            <a href="index.html" class="fas fa-home">Home</a>
+        </div>
+        <div class="left-element">
+            
+            <img src="The Black Blondes noborder.png" alt="logo">
+        </div>
+        <div class="right-element">
+            <h1>CONTACT US</h1>
+            <p>you can state anything here and you will be answered soon through your email.</p>
+            <form action="submit" name="submit-to-google-sheet">
+                <label for="fullName">Full Name</label><br>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your Full Name"><br>
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your E-mail address"><br>
+                <label for="phone">Phone Number</label><br>
+                <input type="text" id="phone" name="phone" placeholder="Enter your Phone Number"><br>
+                <label for="subject">Subject</label><br>
+                <input type="text" id="subject" name="subject" placeholder="Enter Subject of your Concern"><br>
+                <label for="query">Enter Your Concern</label><br>
+                <textarea name="query" id="query" cols="30" rows="10" placeholder="Enter your Concern"></textarea><br>
+                <input class="submitbtn" id="submitbtn" onclick="myfunction()" type="submit" value="Submit">
+                <input id="resetbtn" type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+    <script src="contactform.js"></script>
+</body>
+
+</html>
